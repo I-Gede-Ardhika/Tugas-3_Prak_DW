@@ -1,0 +1,101 @@
+/*========================= 
+  PENGATURAN DASAR HALAMAN 
+============================ */
+BODY {
+    FONT-FAMILY: ARIAL, HELVETICA, SANS-SERIF;
+    FONT-SIZE: 16PX;
+    LINE-HEIGHT: 1.7;
+    BACKGROUND-COLOR: #F4F4F4;
+    COLOR: #333333;
+    MARGIN: 0;
+}
+
+/* =========================
+        HEADER 
+========================= */
+HEADER {
+    BACKGROUND-COLOR: #360a7d;
+    COLOR: WHITE;
+    TEXT-ALIGN: CENTER;
+    PADDING: 30PX;
+}
+
+HEADER H1 {
+    FONT-SIZE: 32PX;
+    FONT-WEIGHT: BOLD;
+    MARGIN-BOTTOM: 5PX;
+    LINE-HEIGHT: 1;
+}
+
+.PROFESI {
+    FONT-SIZE: 18PX;
+    FONT-WEIGHT: NORMAL;
+    COLOR: RGBA(255, 255, 255, 0.85);
+}
+
+.FOTO-PROFIL {
+    WIDTH: 150PX;
+    HEIGHT: 220PX;
+    BORDER-RADIUS: 20%;
+    BORDER: 4PX SOLID rgb(188, 255, 3);
+}
+
+/* ========================= 
+        KONTEN UTAMA 
+========================= */
+MAIN {
+    WIDTH: 80%;
+    MARGIN: 30PX AUTO;
+    BACKGROUND-COLOR: WHITE;
+    PADDING: 30PX;
+}
+
+SECTION {
+    MARGIN-BOTTOM: 30PX;
+}
+
+H2 {
+    COLOR: #36066c;
+    FONT-SIZE: 23PX;
+    BORDER-BOTTOM: 2PX SOLID #36066c;
+    PADDING-BOTTOM: 5PX;
+    LINE-HEIGHT: 1;
+}
+
+P {
+    FONT-SIZE: 16PX;
+    TEXT-ALIGN: JUSTIFY;
+    LINE-HEIGHT: 1.5;
+}
+
+UL {
+    LINE-HEIGHT: 1.8;
+}
+
+/* ========================= 
+        HYPERLINK 
+========================= */
+
+A {
+    COLOR: #006699;
+    TEXT-DECORATION: NONE;
+}
+
+A:HOVER {
+    TEXT-DECORATION: UNDERLINE;
+}
+
+/* ========================= 
+        FOOTER 
+========================= */
+FOOTER {
+    BACKGROUND-COLOR: RGB(30, 30, 30);
+    COLOR: WHITE;
+    TEXT-ALIGN: CENTER;
+    PADDING: 15PX;
+}
+
+FOOTER P {
+    TEXT-ALIGN: CENTER;
+    FONT-SIZE: 14PX;
+}

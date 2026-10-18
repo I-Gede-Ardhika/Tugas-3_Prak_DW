@@ -1,0 +1,79 @@
+/*========================= 
+  PENGATURAN DASAR HALAMAN 
+============================ */
+BODY {
+    FONT-FAMILY: ARIAL, HELVETICA, SANS-SERIF;
+    FONT-SIZE: 16PX;
+    LINE-HEIGHT: 1.7;
+    BACKGROUND-COLOR: #F4F4F4;
+    COLOR: #333333;
+    MARGIN: 0;
+}
+
+/* ========================= 
+        KONTEN UTAMA 
+========================= */
+MAIN {
+    WIDTH: 80%;
+    MARGIN: 30PX AUTO;
+    BACKGROUND-COLOR: WHITE;
+    PADDING: 30PX;
+}
+
+SECTION {
+    MARGIN-BOTTOM: 30PX;
+}
+
+H2 {
+    COLOR: #36066c;
+    FONT-SIZE: 23PX;
+}
+
+H3 {
+    COLOR: #36066c;
+    FONT-SIZE: 13PX;
+}
+
+h1 {
+    COLOR: #36066c;
+    FONT-SIZE: 30PX;
+    BORDER-BOTTOM: 2PX SOLID #36066c;
+    PADDING-BOTTOM: 5PX;
+}
+
+P {
+    FONT-SIZE: 16PX;
+    TEXT-ALIGN: JUSTIFY;
+}
+
+oL {
+    LINE-HEIGHT: 1.8;
+}
+
+/* ========================= 
+        HYPERLINK 
+========================= */
+
+A {
+    COLOR: #006699;
+    TEXT-DECORATION: NONE;
+}
+
+A:HOVER {
+    TEXT-DECORATION: UNDERLINE;
+}
+
+/* ========================= 
+        FOOTER 
+========================= */
+FOOTER {
+    BACKGROUND-COLOR: RGB(30, 30, 30);
+    COLOR: WHITE;
+    TEXT-ALIGN: CENTER;
+    PADDING: 15PX;
+}
+
+FOOTER P {
+    TEXT-ALIGN: CENTER;
+    FONT-SIZE: 14PX;
+}
